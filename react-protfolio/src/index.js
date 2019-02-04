@@ -11,7 +11,7 @@ class App extends Component {
         return(
             <div>
             <Navigation LogoTitle="React Project"/>
-            <Header/>
+            <Header Title="Stylish Protfolio" button="Find out more"/>
             </div>
         );
     }
