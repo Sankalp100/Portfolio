@@ -1,0 +1,19 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-size: 30px;
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
