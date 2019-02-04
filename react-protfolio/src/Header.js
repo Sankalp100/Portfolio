@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Background from './img/reactproject.jpg';
+
+const myStyles = {
+    'backgroundImage':`url( ${Background} )`,
+    'height': '80vh',
+    backgrounSize: 'cover '     
+}
 
 class Header extends Component{
-    const myStyles = {
-        background-image:'./img/ironman.jpg';
-        height: 300px;  
-    }
+    
     render(){
         return(
             <header style={myStyles}>
