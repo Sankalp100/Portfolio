@@ -5,7 +5,7 @@ class Navigation extends Component {
     render() {
         return(
             <nav>
-               <h2 className="logo">React Projects</h2>
+               <h2 className="logo">{this.props.LogoTitle}</h2>
 
                <ul>
                 <li><a href="#">Home</a></li>

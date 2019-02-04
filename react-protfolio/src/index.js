@@ -5,6 +5,6 @@ import './index.css';
 import Navigation from './Navigation';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Navigation />, document.getElementById('root'));
+ReactDOM.render(<Navigation LogoTitle="React Portfolio"/>, document.getElementById('root'));
 
 serviceWorker.unregister();
