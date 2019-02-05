@@ -12,7 +12,7 @@ class App extends Component {
         return(
             <div>
             <Navigation LogoTitle="React Project"/>
-            <Header Title="Stylish Protfolio" button="Find out more"/>
+            <Header Title="Sankalp Gour" button="Find out more"/>
             <Services />
             </div>
         );
